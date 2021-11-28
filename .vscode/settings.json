@@ -1,0 +1,12 @@
+{
+  "editor.rulers": [80],
+  "prettier.configPath": ".prettierrc.yaml",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    ".github/**": true,
+    ".vscode/**": true,
+    "public/**": true
+  }
+}

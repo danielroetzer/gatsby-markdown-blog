@@ -1,0 +1,22 @@
+{
+    "commentHeaderAll": {
+        "scope": "javascript",
+        "prefix": "*A",
+        "body": [
+            "/** EXTERNALS **/",
+            "",
+            "",
+            "/** LOCALS **/",
+            "",
+            "",
+            "/** HELPERS **/",
+            "",
+            "",
+            "/** MAIN **/",
+            "",
+            "",
+            "$1"
+        ],
+        "description": "Comment Header: All"
+    }
+}
