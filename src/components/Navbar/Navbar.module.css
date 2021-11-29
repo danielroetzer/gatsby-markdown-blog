@@ -5,12 +5,12 @@
     padding: 20px;
 }
 
-.brand {
+.title {
     text-decoration: none;
     color: black;
 }
 
-.brand h2 {
+.title h2 {
     margin: 0;
     text-decoration: none;
 }
