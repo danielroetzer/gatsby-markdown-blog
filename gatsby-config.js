@@ -6,5 +6,10 @@
 
 module.exports = {
     /* Your site config here */
-    plugins: [],
+    plugins: ['gatsby-plugin-react-helmet'],
+    siteMetadata: {
+        title: 'Gatsby Markdown Blog',
+        titleTemplate: '%s | Gatsby Markdown Blog',
+        description: 'Gatsby blog sourcing from markdown files.',
+    },
 };
