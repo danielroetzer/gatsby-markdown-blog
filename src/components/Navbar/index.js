@@ -31,11 +31,11 @@ const Navbar = function () {
                     Home
                 </Link>
                 <Link
-                    to="/projects"
+                    to="/articles"
                     className={styles.link}
                     activeStyle={activeLinkStyle}
                 >
-                    Projects
+                    Articles
                 </Link>
                 <Link
                     to="/about"

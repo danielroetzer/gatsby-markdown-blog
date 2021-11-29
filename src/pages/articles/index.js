@@ -10,12 +10,12 @@ import Layout from '../../components/Layout';
 
 /** MAIN **/
 
-const ProjectsPage = function () {
+const ArticlesPage = function () {
     return (
         <Layout>
-            <div>Projects Page</div>
+            <div>Articles Page</div>
         </Layout>
     );
 };
 
-export default ProjectsPage;
+export default ArticlesPage;
