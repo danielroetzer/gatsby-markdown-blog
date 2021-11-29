@@ -6,7 +6,7 @@
     "email": "daniel.roetzer@protonmail.com"
   },
   "description": "Gatsby blog sourcing local markdown files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
