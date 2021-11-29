@@ -23,6 +23,7 @@ const query = graphql`
 
 /** MAIN **/
 
+// https://www.gatsbyjs.com/docs/add-seo-component/
 const SEO = function (props) {
     const { site } = useStaticQuery(query);
 
