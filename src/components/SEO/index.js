@@ -43,9 +43,4 @@ SEO.propTypes = {
     title: PropTypes.string,
 };
 
-SEO.defaultProps = {
-    description: null,
-    title: null,
-};
-
 export default SEO;
