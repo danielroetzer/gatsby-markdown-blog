@@ -4,16 +4,18 @@ import React from 'react';
 
 /** LOCALS **/
 
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 
 /** HELPERS **/
 
 /** MAIN **/
 
-export default function Home() {
+const AboutPage = function () {
     return (
         <Layout>
-            <div>Home Page</div>
+            <div>About Page</div>
         </Layout>
     );
-}
+};
+
+export default AboutPage;

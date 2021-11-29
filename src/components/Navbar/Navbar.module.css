@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.brand {
+    text-decoration: none;
+    color: black;
+}
+
+.brand h2 {
+    margin: 0;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
