@@ -5,8 +5,8 @@
     "name": "Daniel Rötzer",
     "email": "daniel.roetzer@protonmail.com"
   },
-  "description": "Gatsby blog sourcing local markdown files.",
-  "version": "0.0.3",
+  "description": "Gatsby blog sourcing from local markdown files.",
+  "version": "0.1.0",
   "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
@@ -34,9 +34,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/danielroetzer/gatsby-markdown-blog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/danielroetzer/gatsby-markdown-blog/issues"
   }
 }
