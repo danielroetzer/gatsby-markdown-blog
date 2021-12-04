@@ -20,6 +20,14 @@ module.exports = {
                 path: `${__dirname}/src/articles`,
             },
         },
+        'gatsby-transformer-sharp',
+        'gatsby-plugin-sharp',
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                path: `${__dirname}/src/assets/img`,
+            },
+        },
     ],
     siteMetadata: {
         title: 'Gatsby Markdown Blog',
