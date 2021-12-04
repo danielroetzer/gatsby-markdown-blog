@@ -6,7 +6,7 @@
     "email": "daniel.roetzer@protonmail.com"
   },
   "description": "Gatsby blog sourcing from local markdown files.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
@@ -14,7 +14,9 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "deploy:staging": "vercel",
+    "deploy:prod": "vercel --prod"
   },
   "dependencies": {
     "gatsby": "^4.2.0",
