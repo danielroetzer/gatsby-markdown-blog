@@ -1,0 +1,26 @@
+.article {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.article_header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.article_author {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3f81e9;
+}
+
+.article_date {
+    color: #8e8e8e;
+    font-size: 1.2em;
+}
+
+.markdown_root {
+    max-width: 600px;
+    margin: 0 auto;
+}

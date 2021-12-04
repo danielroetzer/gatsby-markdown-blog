@@ -28,9 +28,29 @@ const Footer = function () {
 
     return (
         <footer className={styles.footer}>
-            <p>
+            <span>
+                Articles generated with:{' '}
+                <a
+                    href="https://jaspervdj.be/lorem-markdownum/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    https://jaspervdj.be/lorem-markdownum/
+                </a>
+            </span>
+            <span>
+                GitHub:{' '}
+                <a
+                    href="https://github.com/danielroetzer/gatsby-markdown-blog"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    https://github.com/danielroetzer/gatsby-markdown-blog
+                </a>
+            </span>
+            <span>
                 Copyright {year} {author}
-            </p>
+            </span>
         </footer>
     );
 };

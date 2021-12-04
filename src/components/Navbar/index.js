@@ -3,6 +3,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 /** LOCALS **/
 
@@ -12,6 +13,13 @@ import * as styles from './Navbar.module.css';
 
 const query = graphql`
     query Navbar {
+        file(relativePath: { eq: "markdown-icon.png" }) {
+            childImageSharp {
+                fixed(height: 30) {
+                    ...GatsbyImageSharpFixed
+                }
+            }
+        }
         site {
             siteMetadata {
                 title
@@ -20,45 +28,18 @@ const query = graphql`
     }
 `;
 
-const activeLinkStyle = {
-    textDecoration: 'underline',
-};
-
 /** MAIN **/
 
 const Navbar = function () {
-    const { site } = useStaticQuery(query);
+    const { file, site } = useStaticQuery(query);
     const { title } = site.siteMetadata;
 
     return (
         <div className={styles.navbar}>
             <Link to="/" className={styles.title}>
+                <Img fixed={file.childImageSharp.fixed} alt="Markdown Logo" />
                 <h2>{title}</h2>
             </Link>
-
-            <div className={styles.links}>
-                <Link
-                    to="/"
-                    className={styles.link}
-                    activeStyle={activeLinkStyle}
-                >
-                    Home
-                </Link>
-                <Link
-                    to="/articles"
-                    className={styles.link}
-                    activeStyle={activeLinkStyle}
-                >
-                    Articles
-                </Link>
-                <Link
-                    to="/about"
-                    className={styles.link}
-                    activeStyle={activeLinkStyle}
-                >
-                    About
-                </Link>
-            </div>
         </div>
     );
 };
