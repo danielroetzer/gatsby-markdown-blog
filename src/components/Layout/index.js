@@ -1,7 +1,6 @@
 /** EXTERNALS **/
 
 import React from 'react';
-import PropTypes from 'prop-types';
 
 /** LOCALS **/
 
@@ -22,10 +21,6 @@ const Layout = function ({ children }) {
             <Footer />
         </div>
     );
-};
-
-Layout.propTypes = {
-    children: PropTypes.element.isRequired,
 };
 
 export default Layout;
